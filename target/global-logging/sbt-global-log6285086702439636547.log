@@ -1,0 +1,107 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\Firdaus\AppData\Local\Temp\idea.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\Firdaus\AppData\Local\Temp\idea.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.10.1 (Oracle Corporation Java 1.8.0_333)
+[debug] Load.defaultLoad until apply took 48.6565ms
+[debug]           Load.loadUnit: plugins took 39.6006ms
+[debug]           Load.loadUnit: defsScala took 0.123ms
+[debug] [Loading] Scanning directory C:\ScalaProjects\scala-advanced-udemy-Self\project
+[debug]             Load.loadUnit: mkEval took 5.5082ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\ScalaProjects\scala-advanced-udemy-Self\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 7.1951 ms
+[info] loading settings for project scala-advanced-udemy-self-build from idea.sbt ...
+[debug]               Load.resolveProject(scala-advanced-udemy-self-build) took 27.5078ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id scala-advanced-udemy-self-build, base: C:\ScalaProjects\scala-advanced-udemy-Self\project, plugins: List(<none>))) took 38.7307ms
+[debug] [Loading] Done in C:\ScalaProjects\scala-advanced-udemy-Self\project, returning: (scala-advanced-udemy-self-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 1410.8707ms
+[debug]           Load.loadUnit: cleanEvalClasses took 4.5463ms
+[debug]         Load.loadUnit(file:/C:/ScalaProjects/scala-advanced-udemy-Self/project/, ...) took 1457.8607ms
+[debug]       Load.apply: load took 1517.1945ms
+[debug]       Load.apply: resolveProjects took 2.4975ms
+[debug]       Load.apply: finalTransforms took 24.0803ms
+[debug]       Load.apply: config.delegates took 2.7736ms
+[debug]       Load.apply: Def.make(settings)... took 184.7879ms
+[debug]       Load.apply: structureIndex took 44.1507ms
+[debug]       Load.apply: mkStreams took 1.3019ms
+[info] loading project definition from C:\ScalaProjects\scala-advanced-udemy-Self\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 2815.3947ms
+[debug]     Load.loadUnit: defsScala took 0.0015ms
+[debug] [Loading] Scanning directory C:\ScalaProjects\scala-advanced-udemy-Self
+[debug]       Load.loadUnit: mkEval took 0.1814ms
+[debug] [Loading] Found root project root w/ remaining 
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 1.5848 ms
+[info] loading settings for project root from build.sbt ...
+[debug]         Load.resolveProject(root) took 16.0573ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id root, base: C:\ScalaProjects\scala-advanced-udemy-Self, plugins: List(<none>))) took 18.7649ms
+[debug] [Loading] Done in C:\ScalaProjects\scala-advanced-udemy-Self, returning: (root)
+[debug]     Load.loadUnit: loadedProjectsRaw took 479.7596ms
+[debug]     Load.loadUnit: cleanEvalClasses took 5.2248ms
+[debug]   Load.loadUnit(file:/C:/ScalaProjects/scala-advanced-udemy-Self/, ...) took 3301.0332ms
+[debug] Load.apply: load took 3311.3076ms
+[debug] Load.apply: resolveProjects took 0.0816ms
+[debug] Load.apply: finalTransforms took 12.1783ms
+[debug] Load.apply: config.delegates took 0.1515ms
+[debug] Load.apply: Def.make(settings)... took 44.1542ms
+[debug] Load.apply: structureIndex took 9.9777ms
+[debug] Load.apply: mkStreams took 0.0019ms
+[info] set current project to scala-advanced-udemy-Self (in build file:/C:/ScalaProjects/scala-advanced-udemy-Self/)
+[debug] > Exec(sbtPopOnFailure, None, None)
+[debug] > Exec(resumeFromFailure, None, None)
+[debug] > Exec(notifyUsersAboutShell, None, None)
+[debug] > Exec(iflast shell, None, None)
+[debug] > Exec(; set ideaPort in Global := 63438 ; idea-shell, None, None)
+[debug] > Exec(set ideaPort in Global := 63438, None, None)
+[info] Defining Global / ideaPort
+[info] The new value will be used by Compile / compile, Test / compile
+[debug] Defining 
+[debug] 	Global / ideaPort
+[debug] 
+[debug] The new value will be used by 
+[debug] 	Compile / compile
+[debug] 	Test / compile
+[info] Reapplying settings...
+[info] set current project to scala-advanced-udemy-Self (in build file:/C:/ScalaProjects/scala-advanced-udemy-Self/)
+[debug] > Exec(idea-shell, None, None)
